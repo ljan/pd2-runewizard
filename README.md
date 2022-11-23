@@ -120,7 +120,7 @@ The icons come from [icones.js](https://icones.js.org/collection/fa-solid). Clic
 
 # Thanks
 
-- @fabd for making the original Runewizard and allowing people will zero code knowledge(me) to modify it
+- @fabd for making the original Runewizard and allowing people with zero code knowledge(me) to modify it
 - @migouelBL for providing required levels data (in the old repository)
 
 # Copyright notices
