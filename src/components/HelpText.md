@@ -1,6 +1,6 @@
 ## What is it?
 
-The Runewizard lets you check easily what runewords you can make with the runes you have found.
+The Project Diablo 2 Runewizard lets you check easily what runewords you can make in Project Diablo 2, including all updated stats and requirements.
 
 Click on the runes to mark which ones you have found. The available runewords will be highlighted automatically.
 
@@ -8,11 +8,13 @@ The table can be sorted : try clicking on the table headings, you may find it us
 
 ## Runes
 
-The runes are listed in order of rarity, from top to bottom, and left to right. Each vertical group of rune represents roughly **Common**, **Semi-Rare**, and **Extremely Rare** runes. Note that the order is consistent with the [rune upgrade formulas](http://classic.battle.net/diablo2exp/items/cube.shtml) for the Horadric Cube. For example: 3 x Tal = 1 x Ral rune.
+The runes are listed in order of rarity, from top to bottom, and left to right. The runes upgrade formula in Project Diablo 2 has been changed to the following:
+**El - Pul: 3 runes + Key**
+**Um - Zod: 2 runes + Key**
 
 ## Runewords
 
-**Ladder-only runewords** have a small <span class="rw-Md-ladder">L</span> icon next to the name.
+**Season 6 New and Updated Runewords** have a small <span class="rw-Table-tdTitlePatch">S6 New/Upd</span> icon next to the name.
 
 ## Note about storage
 
