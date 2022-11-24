@@ -3,16 +3,15 @@
     <div class="rw-Layout-goldBarSeparator opacity-50 mb-6"></div>
 
     <div class="text-center text-lg text-gold leading-1">
-      <div v-if="envMainSiteUrl" class="mb-2">
-        Also check out
-        <a :href="envMainSiteUrl" class="rw-Footer-link ml-2">
-          {{
-            "The Tankazon Resource"
-          }}
+      <div>
+        Maintenance
+        <a :href="envGithubRepoUrl" class="rw-Footer-link ml-2">
+          <icon-github class="ux-icon ux-icon--fw mr-1 mt-[-0.2em]" />
+          <span class>{{ "kvothed2/pd2-runewizard" }}</span>
         </a>
       </div>
       <div>
-        Development
+        Original
         <a :href="envGithubRepoUrl" class="rw-Footer-link ml-2">
           <icon-github class="ux-icon ux-icon--fw mr-1 mt-[-0.2em]" />
           <span class>{{ "fabd/diablo2-runewizard" }}</span>
