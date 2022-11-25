@@ -18,9 +18,9 @@
           />
         </h1>
         <div class="flex justify-between items-center">
-          <div class="text-lg text-[#b5b2b0]">
-            for <span class="text-[#b5b2b0] font-bold">{{ envGameName }}</span>
-            <span class="ml-2 text-[#71B643]">{{ envGameVersion }}</span>
+          <div class="text-lg text-[#e9bf40]">
+            for <span class="text-[#e9bf40] font-bold">{{ envGameName }}</span>
+            <span class="ml-2 text-[#90b7ff]">{{ envGameVersion }}</span>
           </div>
 
           <div class="flex items-center text-[#514f4a]">
@@ -37,7 +37,7 @@
               /><span class="ml-1">{{ "Help" }}</span>
             </a>
 
-            <a :href="`${envGithubRepoUrl}/discussions`" class="rw-Header-link">
+            <a :href="`https://discord.gg/DWYBG2qd3u`" class="rw-Header-link">
               <icon-chat class="ux-icon ux-icon--fw ux-icon--lg mr-1" />
               <span>{{ "Feedback" }}</span>
             </a>

@@ -25,7 +25,7 @@
 // 2. our reset & base styles (*after* tailwind's defaults)
 // --------------------------------------------------------------------
 body {
-  background: #000;
+  background: #000208;
   font-size: 1rem;
   line-height: 1.2em;
   color: #afafaf;
@@ -114,7 +114,7 @@ object {
 // pretend component to group layout utils
 .rw-Layout {
   &-rowContainer {
-    @apply max-w-[1100px] pl-8 pr-4;
+    @apply max-w-[1250px] pl-8 pr-4;
   }
 
   &-goldBarSeparator {
@@ -160,13 +160,13 @@ object {
 // --------------------------------------------------------------------
 .rw-Search {
   label {
-    color: #a29f9d;
+    color: #a0c6ff;
   }
 
   &-input {
     @apply w-full rounded text-[#444];
     padding: 0.5rem;
-    background: #000;
+    background: #000208;
     @apply border border-gold;
     @apply text-gold-light;
   }
@@ -205,13 +205,13 @@ object {
   @apply px-4 pt-6 pb-6;
   @apply border-b border-[#444] mb-6;
 
-  color: #aca798;
+  color: #a0c6ff;
   line-height: 1.4em;
 
   h2 {
     @apply font-bold mb-2;
     font-variant: small-caps;
-    color: #c96e0b;
+    color: #e9bf40;
   }
   h2:not(:first-child) {
     @apply mt-6;
@@ -235,8 +235,8 @@ object {
   font-size: 13px;
 
   &-th {
-    background: #400000;
-    color: #c0c080;
+    background: #6e002e;
+    color: #fff385;
     font-weight: normal;
     padding: 0.25rem 0.5rem;
     border-right: 1px solid #000;
@@ -252,22 +252,22 @@ object {
   }
 
   &-tr.is-complete td {
-    background: #200000;
+    background: #1b000c;
   }
 
   &-td {
     line-height: 1;
     padding: 5px 5px 6px;
     text-align: center;
-    border-bottom: 1px solid #29291d;
+    border-bottom: 1px solid #313846;
     color: #858280;
   }
 
   &-td.is-rune {
-    color: #844;
+    color: #5b75a7;
   }
   &-td.is-active {
-    color: #44aa44;
+    color: #a3c3ff;
   }
 
   // runeword title
@@ -277,7 +277,7 @@ object {
     &Span {
       @apply inline-block px-[5px] py-[7px]; // increase the mouseover area
 
-      color: #74726c;
+      color: #7e7764;
 
       font-size: 1rem;
 
@@ -290,8 +290,8 @@ object {
     &Patch {
       @apply rounded-sm text-xs leading-1 ml-1;
       padding: 2px 4px 2px;
-      background-color: #71B643;
-      color: #000;
+      background-color: #416ecfee;
+      color: #e4e4e4;
     }
   }
 
@@ -336,7 +336,7 @@ object {
   }
 
   &-tr.is-complete &-tdTitleSpan {
-    color: #c6a33b;
+    color: #e9bf40;
   }
 }
 
@@ -420,10 +420,10 @@ object {
   border: 1px solid #937c6e;
   @apply py-4 px-8 text-center;
   text-align: center;
-  color: #48ac3f;
+  color: #90b7ff;
 
   &-title {
-    color: #928a70;
+    color: #e9bf40;
     @apply text-[1.4em] leading-[1em] mb-2;
   }
   &-type {
@@ -450,7 +450,7 @@ object {
   // format modifiers (numbers) in the item description
   &-body .is-mod {
     @apply font-bold;
-    color: #5cbd4b;
+    color: #b5cfff;
   }
 }
 
