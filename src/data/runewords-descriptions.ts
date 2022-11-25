@@ -334,8 +334,8 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Chaos: `
-  18% Chance To Cast Level 21 Frozen Orb On Striking
-	14% Chance To Cast Level 29 Charged Bolt On Striking
+  20% Chance To Cast Level 30 Frozen Orb On Striking
+	18% Chance To Cast Level 40 Charged Bolt On Striking
 	Indestructible
 	+290-340% Enhanced Damage (varies)
 	Adds 216-471 Magic Damage
@@ -343,7 +343,10 @@ const runewordsDesc: TRunewordMeta = {
 	+2 To Blade Dance
 	+10 To Strength
 	+15 Life After Each Demon Kill
-  <i>Blade Dance is the same as Whirlwind except the animation takes 1 less frame - it uses 4 frames instead of 5 (single weapon) or 5 frames instead of 6 (dual wielding)</i>
+  <i>Blade Dance is the same as Whirlwind except 
+  the animation takes 1 less frame - it uses 4 frames 
+  instead of 5 (single weapon) or 
+  5 frames instead of 6 (dual wielding)</i>
   `,
 
   "Chains of Honor": `
@@ -423,7 +426,8 @@ const runewordsDesc: TRunewordMeta = {
 	Damage Reduced By 5%
 	15% Damage Taken Goes To Mana
 	+0-74% Better Chance of Getting Magic Items (0.5-0.75% per Character Level)
-  <i>Blink is the same as Teleport, except it costs no mana and doesn't temporarily reduce spell damage.</i>
+  <i>Blink is the same as Teleport, except it costs 
+  no mana and doesn't temporarily reduce spell damage.</i>
   `,
 
   Eternity: `
@@ -624,10 +628,10 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Destruction: `
-  23% Chance To Cast Level 22 Frost Nova On Striking
-	5% Chance To Cast Level 33 Molten Boulder On Striking
-	5% Chance To Cast Level 45 Meteor On Striking
-	15% Chance To Cast Level 32 Nova On Attack
+  20% Chance To Cast Level 35 Frost Nova On Striking
+	8% Chance To Cast Level 35 Molten Boulder On Striking
+	15% Chance To Cast Level 45 Meteor On Striking
+	15% Chance To Cast Level 40 Nova On Striking
 	30-40% Increased Attack Speed (varies)
 	+300% Enhanced Damage
 	Ignore Target's Defense
