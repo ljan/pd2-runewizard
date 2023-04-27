@@ -28,9 +28,9 @@ const runewordsDesc: TRunewordMeta = {
   -25% Target Defense
   20% Bonus To Attack Rating
   6% Life Stolen Per Hit
-  33-66% Chance Of Open Wounds (varies)
   33-66% Deadly Strike (varies)
   +5 To Frenzy (Barbarian Only)
+  +5 To Deep Wounds (Barbarian Only)
   `,
 
   "Holy Thunder": `
@@ -107,12 +107,12 @@ const runewordsDesc: TRunewordMeta = {
   +33% Enhanced Damage
   +9 To Maximum Damage
   100% Chance Of Open Wounds
+  +6 Open Wounds Damage Per Second
   -25% Target Defense
   -100 To Monster Defense Per Hit
   Prevent Monster Heal
   +50 To Attack Rating
   Drain Life -5
-  +2 Life After Each Hit
   `,
 
   Melody: `
@@ -232,7 +232,7 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Venom: `
-  20% Chance To Cast Level 23 Poison Nova When You Kill An Enemy
+  20% Chance To Cast Level 28 Poison Nova On Striking
 	Ignore Target's Defense
 	+400 Poison Damage Over 3 seconds
 	7% Mana Stolen Per Hit
@@ -251,7 +251,7 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   White: `
-  +1-2 To Poison And Bone Skills (Necromancer Only) (varies)
+  +2 To Poison And Bone Skills (Necromancer Only)
   20% Faster Cast Rate
   +2-3 To Bone Armor (Necromancer Only) (varies)
 	+4 To Skeleton Mastery (Necromancer Only)
@@ -278,7 +278,8 @@ const runewordsDesc: TRunewordMeta = {
 	+40% Increased Attack Speed
 	+260-290% Enhanced Damage (varies)
 	20% Chance of Crushing Blow
-	25% Chance of Open Wounds
+	10% Chance of Open Wounds
+  +120 Open Wounds Damage Per Second
 	Prevent Monster Heal
 	+3 To Hunger
 	+3 To Maul
@@ -339,7 +340,8 @@ const runewordsDesc: TRunewordMeta = {
 	Indestructible
 	+290-340% Enhanced Damage (varies)
 	Adds 216-471 Magic Damage
-	25% Chance of Open Wounds
+	10% Chance of Open Wounds
+  +120 Open Wounds Damage Per Second
 	+2 To Blade Dance
 	+10 To Strength
 	+15 Life After Each Demon Kill
@@ -369,7 +371,8 @@ const runewordsDesc: TRunewordMeta = {
 	+180-220% Enhanced Damage (varies)
 	Ignore Target's Defense
 	-10-15% To Enemy Lightning Resistance (varies)
-	25% Chance of Open Wounds
+	10% Chance of Open Wounds
+  +120 Open Wounds Damage Per Second
 	+3-5 Magic Absorb (varies)
 	+2 To Mana After Each Kill
 	Level 18 Summon Spirit Wolf (30 Charges)
@@ -397,7 +400,8 @@ const runewordsDesc: TRunewordMeta = {
 	+330-370% Enhanced Damage (varies)
 	-30-50% To Enemy Cold Resistance (varies)
 	20% Deadly Strike
-	25% Chance of Open Wounds
+	10% Chance of Open Wounds
+  +120 Open Wounds Damage Per Second
 	Freezes Target +3
 	Requirements -20%
   `,
@@ -479,7 +483,7 @@ const runewordsDesc: TRunewordMeta = {
 	All Resistances +45
 	Half Freeze Duration
 	5% Damage Taken Goes To Mana
-	Magic Damage Reduced by 4-10 (varies)
+	+20% Curse Resistance
   `,
 
   "Hand of Justice": `
@@ -516,7 +520,8 @@ const runewordsDesc: TRunewordMeta = {
 	-25% Target Defense
 	20% Bonus To Attack Rating
 	33% Chance of Crushing Blow
-	50% Chance of Open Wounds
+	35% Chance of Open Wounds
+  +120 Open Wounds Damage Per Second
   Adds +400-450 Cold Damage
 	Prevent Monster Heal
 	+10 To Vengeance
@@ -591,7 +596,7 @@ const runewordsDesc: TRunewordMeta = {
   5% Chance To Cast Level 9 Cyclone Armor When Struck (On Casting in Staves)
 	+20-30% Faster Run/Walk (varies)
   +40% Increased Attack Speed
-	+350-400% Enhanced Damage (varies)
+	+320-380% Enhanced Damage (varies)
 	-50% Target Defense
 	+50 To Attack Rating
 	+4 Life After Each Kill
@@ -600,7 +605,8 @@ const runewordsDesc: TRunewordMeta = {
 
   Brand: `
   65% Chance To Cast Level 31 Amplify Damage When Struck
-	50% Chance To Cast Level 50 Bone Spear On Striking
+	50% Chance To Cast Level 45 Bone Spear On Striking
+  You May Now Summon 6 Additional Sekeleton Archers
 	+260-340% Enhanced Damage (varies)
 	Ignore Target's Defense
 	20% Bonus to Attack Rating
@@ -628,10 +634,10 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Destruction: `
-  20% Chance To Cast Level 35 Frost Nova On Striking
-	8% Chance To Cast Level 35 Molten Boulder On Striking
-	15% Chance To Cast Level 45 Meteor On Striking
-	15% Chance To Cast Level 40 Nova On Striking
+  20% Chance To Cast Level 35 Frost Nova On Striking (On Casting in Staves)
+	8% Chance To Cast Level 35 Molten Boulder On Striking (On Casting in Staves)
+	15% Chance To Cast Level 45 Meteor On Striking (On Casting in Staves)
+	15% Chance To Cast Level 40 Nova On Striking (On Casting in Staves)
 	30-40% Increased Attack Speed (varies)
 	+300% Enhanced Damage
 	Ignore Target's Defense
@@ -727,11 +733,11 @@ const runewordsDesc: TRunewordMeta = {
   Grief: `
   35% Chance To Cast Level 15 Venom On Striking
 	+30-40% Increased Attack Speed (varies)
-	260 to 280-320 to Minimum and Maximum Damage (varies)
+	280 to 320-360 to Minimum and Maximum Damage (varies)
 	-25% Target Defense
 	+1-185% Damage To Demons (1.875% per Character Level)  
 	Adds 5-30 Fire Damage
-	-20-25% To Enemy Poison Resistance (varies)
+	-15-20% To Enemy Poison Resistance (varies)
 	20% Deadly Strike
 	Prevent Monster Heal
 	+2 To Mana After Each Kill
@@ -834,6 +840,7 @@ const runewordsDesc: TRunewordMeta = {
 	+10 To Energy
 	+10-15 Magic Absorb (varies)
 	Level 16 Heart of Wolverine (20 Charges)
+  Replenishes Charges
   `,
 
   Obedience: `
@@ -984,7 +991,7 @@ const runewordsDesc: TRunewordMeta = {
 
   Myth: `
   3% Chance To Cast Level 1 Howl When Struck
-	10% Chance To Cast Level 1 Taunt On Striking
+	5% Chance To Cast Level 1 Taunt On Striking
 	+1-2 To Barbarian Skill Levels (varies)
 	+30 Defense Vs. Missile
 	Replenish Life +10
@@ -1044,7 +1051,8 @@ const runewordsDesc: TRunewordMeta = {
 	+340-380% Damage to Demons (varies)
 	-20% To Enemy Poison Resistance
 	+0-37% Deadly Strike (0.375% per Character Level)
-	25% Chance of Open Wounds
+	10% Chance of Open Wounds
+  +120 Open Wounds Damage Per Second
 	Freezes Target +3
 	+10 to Strength
   `,
@@ -1130,7 +1138,7 @@ const runewordsDesc: TRunewordMeta = {
   +60% Faster Block Rate
   Adds 200-250 Cold Damage
   +160-200% Enhanced Defense (varies)
-  +125-175 To Life (varies) - ???
+  +125-175 To Life (varies)
   Fire Resist +35%
   Cannot Be Frozen
   +5 To Mana After Each Kill
@@ -1143,7 +1151,8 @@ const runewordsDesc: TRunewordMeta = {
   +265-315% Enhanced Damage (varies)
   Ignore Target's Defense
   20% Bonus To Attack Rating
-  45% Chance Of Open Wounds
+  30% Chance Of Open Wounds
+  +120 Open Wounds Damage Per Second
   Freezes Target +3
   +20 To Dexterity
   100% Extra Gold From Monsters
@@ -1176,7 +1185,7 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Neophyte: `
-  +20% Faster Cast Rate (+30% in Staves)
+  +30% Faster Cast Rate (+40% in Staves)
   Adds 3-14 Cold Damage
   Physical Damage Taken Reduced by 2-4 (varies)
   Half Freeze Duration
@@ -1187,7 +1196,7 @@ const runewordsDesc: TRunewordMeta = {
   Rampage: `
   +65% Increased Attack Speed
   +20% Faster Hit Recovery
-  +80-100% Enhanced Damage
+  +110-135% Enhanced Damage
   +9 To Maximum Damage
   -25% Target Defense
   +50 To Attack Rating
