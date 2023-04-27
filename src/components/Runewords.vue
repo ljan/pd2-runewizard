@@ -15,7 +15,7 @@
 import { defineComponent } from "vue";
 
 import runewordsData from "@/data/runewords";
-
+import runewordsDesc from "@/data/runewords-descriptions"; // imported runewords description component
 import RunewordsTable from "@/components/RunewordsTable.vue";
 
 export default defineComponent({
@@ -23,6 +23,7 @@ export default defineComponent({
 
   components: {
     RunewordsTable,
+    runewordsDesc, // added component
   },
 
   data() {
@@ -54,8 +55,10 @@ export default defineComponent({
         const matchesType = item.ttypes.some((type) => {
           return type.toLowerCase().includes(searchTerm);
         });
+        const description = runewordsDesc[item.title]; // matching runewords from runewords.ts to runewords-descriptions.ts
+        const matchesDescription = description.toLowerCase().includes(searchTerm); // added match for description
 
-        return searchTerm === "" || matchesTitle || matchesType;
+        return searchTerm === "" || matchesTitle || matchesType || matchesDescription; // added description in search term return
       };
 
       this.runewordsList.forEach((item) => {
