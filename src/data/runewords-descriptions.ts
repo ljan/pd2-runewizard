@@ -323,7 +323,7 @@ const runewordsDesc: TRunewordMeta = {
   "Call to Arms": `
   +1 To All Skills
 	+40% Increased Attack Speed
-	+250-290% Enhanced Damage (varies)
+	+245-285% Enhanced Damage (varies)
 	Adds 5-30 Fire Damage
 	7% Life Stolen Per Hit
 	+2-6 To Battle Command (varies)
@@ -338,7 +338,7 @@ const runewordsDesc: TRunewordMeta = {
   20% Chance To Cast Level 30 Frozen Orb On Striking
 	18% Chance To Cast Level 40 Charged Bolt On Striking
 	Indestructible
-	+290-340% Enhanced Damage (varies)
+	+295-345% Enhanced Damage (varies)
 	Adds 216-471 Magic Damage
 	10% Chance of Open Wounds
   +120 Open Wounds Damage Per Second
@@ -397,7 +397,7 @@ const runewordsDesc: TRunewordMeta = {
   +30% Faster Cast Rate (Staves Only)
 	Prevent Monster Heal (Non-Staves Only)
   +45% Increased Attack Speed
-	+330-370% Enhanced Damage (varies)
+	+335-375% Enhanced Damage (varies)
 	-30-50% To Enemy Cold Resistance (varies)
 	20% Deadly Strike
 	10% Chance of Open Wounds
@@ -464,7 +464,7 @@ const runewordsDesc: TRunewordMeta = {
 
   Famine: `
   +30% Increased Attack Speed
-	+320-370% Enhanced Damage (varies)
+	+315-365% Enhanced Damage (varies)
 	Ignore Target's Defense
 	Adds 125-250 Fire Damage
 	Adds 101-275 Lightning Damage
@@ -494,7 +494,7 @@ const runewordsDesc: TRunewordMeta = {
 	+280-330% Enhanced Damage (varies)
 	Ignore Target's Defense
 	7% Life Stolen Per Hit
-	-20% To Enemy Fire Resistance
+	-10-20% To Enemy Fire Resistance (varies)
 	20% Deadly Strike
 	+4 Life After Each Kill
 	Freezes Target +3
@@ -664,7 +664,7 @@ const runewordsDesc: TRunewordMeta = {
 
   Dream: `
   10% Chance To Cast Level 15 Confuse When Struck
-	Level 14 Holy Shock Aura When Equipped
+	Level 13 Holy Shock Aura When Equipped
 	+20-30% Faster Hit Recovery (varies)
 	+30% Enhanced Defense
 	+150-220 Defense (varies)
@@ -691,7 +691,7 @@ const runewordsDesc: TRunewordMeta = {
 
   Faith: `
   Level 12-15 Fanaticism Aura When Equipped (varies)
-	+250-300% Enhanced Damage (varies)
+	+255-305% Enhanced Damage (varies)
 	Ignore Target's Defense
 	300% Bonus To Attack Rating
 	+75% Damage To Undead
@@ -1208,7 +1208,7 @@ const runewordsDesc: TRunewordMeta = {
   You May Summon 1 Additional Golem
   +2 To Necromancer Skill Levels
   +25% Faster Cast Rate
-  +50% Enhanced Damage
+  +45% Enhanced Damage
   +2-3 To Golem Mastery (Necromancer Only) (varies)
   Freezes Target +3
   +300-450 Defense (varies)
