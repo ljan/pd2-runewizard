@@ -475,6 +475,17 @@ const runewordsDesc: TRunewordMeta = {
 	+10 To Strength
   `,
 
+  "Flickering Flame": `
+  Level 1-6 Resist Fire Aura When Equipped (varies)
+  +2 To Fire Skills
+  -5-10% To Enemy Fire Resistance (varies)
+  +30% Enhanced Defense
+  +30 Defense vs. Missile
+  +65-75 To Mana (varies)
+  +4% To Maximum Fire Resist
+  Half Freeze Duration
+  `,
+
   Gloom: `
   15% Chance To Cast Level 9 Dim Vision When Struck
 	+20-40% Faster Hit Recovery (varies)
