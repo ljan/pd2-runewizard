@@ -526,6 +526,13 @@ const runewords: TRuneword[] = [
     version: 'S7 Upd',
   },
   {
+    title: "Flickering Flame",
+    runes: ["Nef", "Pul", "Vex"],
+    level: 55,
+    ttypes: ["Helms"],
+    version: '',
+  },
+  {
     title: "Pattern",
     runes: ["Tal", "Ort", "Tir"],
     level: 21,
