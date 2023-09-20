@@ -313,9 +313,9 @@ const runewordsDesc: TRunewordMeta = {
 	+50 To Attack Rating
 	+50 To Attack Rating Against Undead
 	7% Mana Stolen Per Hit
-	8-10% Life Stolen Per Hit (varies)
+	8-12% Life Stolen Per Hit (varies)
 	Prevent Monster Heal
-	+20-30 To All Attributes (varies)
+	+30 To All Attributes
 	+1 To Light Radius
 	Requirements -20%
   `,
@@ -338,8 +338,8 @@ const runewordsDesc: TRunewordMeta = {
   20% Chance To Cast Level 30 Frozen Orb On Striking
 	18% Chance To Cast Level 40 Charged Bolt On Striking
 	Indestructible
-	+295-345% Enhanced Damage (varies)
-	Adds 216-471 Magic Damage
+	+245-295% Enhanced Damage (varies)
+	Adds 200-400 Magic Damage
 	10% Chance of Open Wounds
   +120 Open Wounds Damage Per Second
 	+2 To Blade Dance
@@ -924,7 +924,7 @@ const runewordsDesc: TRunewordMeta = {
   `,
 
   Spirit: `
-  #### Swords
+  #### Swords, Staves
   +1 To All Skills (+2 in Staves)
 	+25-35% Faster Cast Rate (varies)
 	+25% Faster Hit Recovery (+55% in Staves)
@@ -1188,7 +1188,7 @@ const runewordsDesc: TRunewordMeta = {
   Indestructible
   +20% Faster Hit Recovery
   10-12% Life Stolen Per Hit (varies)
-  +8-10 To Zeal (varies)
+  +12-14 To Zeal (varies)
   +150-200% Enhanced Defense
   Magic Damage Taken Reduced by 6-12 (varies)
   Cannot Be Frozen
@@ -1227,6 +1227,30 @@ const runewordsDesc: TRunewordMeta = {
   Physical Damage Taken Reduced by 5-7 (varies)
   +50% Damage to Undead
   `,
+
+  Hustle: `
+  Level 6 Burst Of Speed When Equipped
+  +20% Increased Attack Speed
+  +20% Faster Hit Recovery
+  +10 To Dexterity
+  50% Slower Stamina Drain
+  All Resistances +10
+  Half Freeze Duration
+  `,
+
+  Innocence: `
+  Indestructible
+  Level 8-12 Blade Shield When Equipped (varies)
+  +2 To All Skills
+  20% Chance Of Crushing Blow
+  +200-275% Enhanced Defense (varies)
+  +4% To Maximum Poison Resist
+  Poison Length Reduced by 50%
+  Attacker Takes Damage of 600-800 (varies)
+  50% Extra Gold From Monsters
+  Requirements -25%
+  `,
+
 
 };
 

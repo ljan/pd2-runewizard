@@ -13,7 +13,7 @@
         <h1 class="text-black text-[0px] mt-[19px] mb-[5px] w-[301px] h-[32px]">
           <img
             src="@assets/images/logo-text-runewizard.png"
-            alt="Runewizard"
+            alt="PD2 Runewizard"
             class="block w-full h-full"
           />
         </h1>
