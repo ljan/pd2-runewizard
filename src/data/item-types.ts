@@ -19,6 +19,7 @@ const itemTypes: { [key in TItemTypeId]: { url?: string } } = {
   Swords: { url: "https://diablo2.diablowiki.net/Swords" },
   Wands: { url: "https://diablo2.diablowiki.net/Wands" },
   Weapons: {},
+  "2-H Swords": {},
 };
 
 export default itemTypes;
