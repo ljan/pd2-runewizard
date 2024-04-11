@@ -1189,7 +1189,7 @@ const runewordsDesc: TRunewordMeta = {
   Indestructible
   +20% Faster Hit Recovery
   10-12% Life Stolen Per Hit (varies)
-  +18 To Zeal (varies)
+  +18 To Zeal
   +150-200% Enhanced Defense
   Magic Damage Taken Reduced by 6-12 (varies)
   Cannot Be Frozen
